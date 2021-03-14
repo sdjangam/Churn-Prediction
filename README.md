@@ -77,3 +77,90 @@ Link to the dataset.
 
 ![image](https://user-images.githubusercontent.com/67232573/111077291-10a5ad00-8516-11eb-9407-955a939c0800.png)
 
+
+#  Pre-processing the dataset
+
+Remove outliers.
+Handle missing values.
+Check for number and types of columns.
+We need to create derived attributes for binning the age ranges.
+For the attributes, Gender, Geography the categorical variables needs to be convert to factor values for other statistical models other than Decision tree model.
+The dummy variables for categorical attributes were created for your reference to look into corresponding mappings for the factorial levels. Later point while applying to the model, these dummy variables were deleted.
+In this scenario, as the data is structured and formatted, the text processing was not needed.
+Feature importance analysis.
+
+# Pre-processing
+
+Conversion of Categorical values to factor values : Gender, Geography variables were converted from categorical to factors.
+
+![image](https://user-images.githubusercontent.com/67232573/111077382-9295d600-8516-11eb-89cc-e90f54ccf3ac.png)
+
+
+Creation of bin variables for the Age, Balance, EstimatedSalary variables
+
+
+![image](https://user-images.githubusercontent.com/67232573/111077410-a80b0000-8516-11eb-9eb2-a23c669762cd.png)
+
+
+# Technologies/concepts Used
+
+Features identification : 
+To determine the importance of variables over the predicted outcome. Here, in our case we need to identify the impact of a variable over Exited column. Ideally, the variables with less importance can be ignored in model building.
+Logistic Regression : 
+This model can be used to model a binary dependent variable where the two outcomes are 0 and 1.
+Naïve Bayes Classifier : 
+This model is basically a simple probabilistic classifier considering all the features are independent with each other.
+Support Vector Machines (SVM) : 
+This model can be used for supervised learning for a classification and regression analysis. SVM model is a representation of points in space and considers as a hyperplane equation to solve the problem.
+Decision Trees : 
+This model is used to build a decision making using the tree like structure. The corresponding outcome can be derived by traversing over the tree structure.
+K-nearest Neighbours(KNN) : 
+K-nearest neighbors algorithm is a non-parametric method used for classification and regression problems. The outcome result can be classified by majority of nearest neighbor poins.
+Neural Networks : 
+This algorithm used to identify the relationships in a set of data through a process as similar to human brain operates. Neural network generates the best possible result without redesign the output criteria.
+
+# Approach
+
+The following classifiers were used to classify the target variable
+Logistic regression
+Naïve Bayes
+Support Vector Machines
+Decision Tree
+K-Nearest Neighbours (KNN)
+Neural Networks
+The test data is being passed to the trained models to predict the outcome classes.
+Used sklearn package for feature selection / identification and for models.
+The accuracy measures and ROC curve was drawn to compare the accuracy metrics among all the models.
+
+# Architecture details of the system
+
+What are the main components in the system?
+This Machine learning model can be used as the processing layer to identify the churn out of customers dataset.
+The feedback loop can be implemented to continuous training of the model.
+What do each of these components do?
+The Machine learning model builds the statistical model by fitting the equation over the dataset and can be used to predict the results.
+An architecture diagram showing various system modules and their input and output.
+
+# Results
+
+![image](https://user-images.githubusercontent.com/67232573/111077552-56af4080-8517-11eb-9348-d4fc8315ca5e.png)
+
+
+![image](https://user-images.githubusercontent.com/67232573/111077563-60d13f00-8517-11eb-9c4c-e10cfa813344.png)
+
+
+# Conclusion
+
+The problem definition is to identify the customers who will churn from the bank.
+The Machine learning approach was used to fasten the process in an automated way to identify the churn customers and to minimize the burden of manual processing.
+The accuracy metrics and ROC curve for comparing the accuracy metrics among the built models. Identified the customers who will churn.
+The churn model can be easily integrate with customer applications to identify the churn and to promote the offers to the customers to maintain the customers without churn.
+
+# Future Work
+
+Can we improve the approach further?
+This can be improvised by continuous feedback implementation to identify the future trends and with the additional attributes. 
+Can we get better data to design an improved solution?
+We can request the additional data from the customer to use the extra features to improvise the solution.
+Can we try any other experimental settings like some other pre-processing steps?
+The customer datasets might have missing values, those can be handled with imputation techniques as a pre-processing steps and the proper imputation methods and other pre-processing steps can be considered to best improvise the model.
