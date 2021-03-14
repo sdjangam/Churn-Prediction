@@ -63,8 +63,5 @@ EstimatedSalary – The estimated salary for the customer
 Exited – Indicates the customer who churned if the value is 1.
 Link to the dataset.
 
-https://www.kaggle.com/taneresme/churn-prediction/data 
+ 
 ![image](https://user-images.githubusercontent.com/67232573/111077162-7b0a1d80-8515-11eb-82bc-734846df6dfb.png)
-
-![image](https://user-images.githubusercontent.com/67232573/111077174-89f0d000-8515-11eb-83de-37c5722e0d3b.png)
-
