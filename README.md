@@ -68,3 +68,12 @@ Link to the dataset.
 
 
 # Exploratory data analysis
+
+![image](https://user-images.githubusercontent.com/67232573/111077258-f370de80-8515-11eb-9a97-712c8e621f73.png)
+
+![image](https://user-images.githubusercontent.com/67232573/111077265-fd92dd00-8515-11eb-89db-ee5374194ab3.png)
+
+![image](https://user-images.githubusercontent.com/67232573/111077284-08e60880-8516-11eb-83ed-f86036dc27fe.png)
+
+![image](https://user-images.githubusercontent.com/67232573/111077291-10a5ad00-8516-11eb-9407-955a939c0800.png)
+
