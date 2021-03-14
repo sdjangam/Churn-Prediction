@@ -64,4 +64,7 @@ Exited – Indicates the customer who churned if the value is 1.
 Link to the dataset.
 
  
-![image](https://user-images.githubusercontent.com/67232573/111077162-7b0a1d80-8515-11eb-82bc-734846df6dfb.png)
+![image](https://user-images.githubusercontent.com/67232573/111077226-c3c1d680-8515-11eb-8967-fdaac40d2da2.png)
+
+
+# Exploratory data analysis
