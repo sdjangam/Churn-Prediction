@@ -85,7 +85,7 @@ Handle missing values.
 Check for number and types of columns.
 We need to create derived attributes for binning the age ranges.
 For the attributes, Gender, Geography the categorical variables needs to be convert to factor values for other statistical models other than Decision tree model.
-The dummy variables for categorical attributes were created for your reference to look into corresponding mappings for the factorial levels. Later point while applying to the model, these dummy variables were deleted.
+The dummy variable for categorical attributes were created for your reference to look into corresponding mappings for the factorial levels. Later point while applying to the model, these dummy variables were deleted.
 In this scenario, as the data is structured and formatted, the text processing was not needed.
 Feature importance analysis.
 
